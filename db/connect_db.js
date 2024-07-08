@@ -4,7 +4,7 @@ const live_url = 'mongodb+srv://puspendrajadon142:88888888@cluster1.18ufdxt.mong
 
 const connectDB=()=>{
     // For local DB
-    return mongoose.connect(live_url)
+    return mongoose.connect(url)
 
     // For cloud DB
     // return mongoose.connect(database)
